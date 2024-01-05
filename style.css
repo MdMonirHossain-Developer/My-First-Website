@@ -1,2 +1,13 @@
-body{background: gray;}
-50px; padding: 20px;}
+*{margin:0; padding: 0;}
+body{width: 1200px;}
+div.logo_div{float: left;
+    background-color: #bd4aa9;
+    width: 200px;
+    height: 40px;}
+.logo_tittle{color:red;}
+#main_nav{width: 600px; background-color: rgb(226, 181, 181); color:white; float: left;;}
+ul{width: 400px;}
+ul li{color: #fffefe; list-style: none;}
+ul li a{text-decoration: none;}
+.left_contant{width: ;}top_heading:hover{ color:azure; transition: 2s;rotate: 2deg;}
+.right_content{{width: 50%;}}
