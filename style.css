@@ -1,13 +1,21 @@
-*{margin:0; padding: 0;}
-body{width: 1200px;}
-div.logo_div{float: left;
-    background-color: #bd4aa9;
-    width: 200px;
-    height: 40px;}
-.logo_tittle{color:red;}
-#main_nav{width: 600px; background-color: rgb(226, 181, 181); color:white; float: left;;}
-ul{width: 400px;}
-ul li{color: #fffefe; list-style: none;}
-ul li a{text-decoration: none;}
-.left_contant{width: ;}top_heading:hover{ color:azure; transition: 2s;rotate: 2deg;}
-.right_content{{width: 50%;}}
+*{margin: 0; padding: 0;}
+body{width: 1200px; margin: 0 auto; margin-top: 5px;}
+#header_maindiv{height: 40px; background-color: aliceblue;}
+.head_logo{width: 170px; float: left;}
+.logo_style{color: red;}
+div.mainnav_div{float: left; width: 600px; margin-left: 128px; margin-top: 10px;  margin-right: -100px;}
+nav#main_nav{}
+nav ul{}
+nav ul li{float: left; list-style: none;margin-right: 50px;}
+nav ul li:hover{color:aqua}
+nav ul li a{text-decoration: none;}
+.login_button{float: left;width: 370px;margin-top: 6px;     margin-left: 30px;}
+input[type=email]{width: 100px;height: 20px;}
+input[type=password]{width: 100px; height: 20px;}
+button[type=submit]{width: 70px; height: 20px;}
+.slider_first{height: 300px; width: 1194px; border: 3px solid gray;}
+#main_content{background-color: aliceblue; margin-top: -4px; overflow: hidden;}
+.left_content{width: 550px; margin-top: 20px; text-align: justify; margin-left: 10px;}
+h2{padding: 10px 0px 10px 6px;; background-color: antiquewhite;}
+p{padding: 25px;}
+.right_content{width: 550px;}
