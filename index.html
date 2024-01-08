@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,7 +25,7 @@
                 </nav>
             </div>
             <div class="login_button">
-                <label for="">email</label>
+                <label for="">email:</label>
                 <input type="email" name="email" id="">
                 <label for="">pass:</label>
                 <input type="password" name="" id="">
@@ -57,14 +58,37 @@
     <form action="">
         <h2>Send your message for any information:</h2>
         <h3 class="headingthree">Write your email:</h3>
-        <input type="email" name="" placeholder="your email" id="">
+        <input class="message_sendfield" type="email" name="" placeholder="your email" id="">
         <h3 class="headingthree">Write your password:</h3>
-        <input type="password" name="" placeholder="your password" id="">
+        <input class="message_sendfield" type="password" name="" placeholder="your password" id="">
         <h3 class="headingthree">Write your message:</h3>
-        <input type="text" name="" placeholder="message" id="">
-        <button type="button">submit</button>
-        <button type="reset">reset</button>
+        <input class="message_sendfield" type="text" name="" placeholder="message" id="">
+        <button class="button_formfield" type="button">submit</button>
+        <button class="button_formfield"  type="reset">reset</button>
     </form>
     </div>
+<footer>
+    <div id="footer_div">
+        <div class="left_section">
+            <h2>Our monogram:</h2>
+            <img class="logo_monogram" src="images/Ellipse 1.png" alt="Ellipse">
+        </div>
+        <div class="middle_section">
+            <h2>Our important menu:</h2>
+            <ul class="footer_ulmenu">
+               <li class="checked"><a href="#">portfolio</a></li>
+               <li class="checked"><a href="#">about us</a></li>
+               <li class="checked"><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <div class="right_section">
+            <h2>Social sharing icon:</h2>
+           <a href="https://www.facebook.com/"><img class="facebook_icon" src="images/Facebook.png" alt="this is facebook icon and link"></a>
+            <a href="Instagram.com"><img class="Instagram_icon" src="images/Instagram.png" alt="this is Instagram pic."></a>
+            <a href="linkedin.com"><img class="linkedin_icon" src="images/Linkedin.png" alt="this is linkedin pic"></a>
+        </div>
+    </div>
+    <p class="main_footer">all right reserved:&copy right 2024 by md monir hossain</p>
+</footer>
 </body>
 </html>

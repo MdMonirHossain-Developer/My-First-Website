@@ -29,12 +29,25 @@ aside {
 .right_content{ margin-top: 25px;margin-left: 75px;}
 h4{padding: 10px 0px 10px 6px;; background-color: antiquewhite; margin-left: -90px;}
 #message_form{width: 500px; border: 2px solid green;  margin: 0 auto; padding: 10px; padding: 20px;}
-input[type="email"]{width: 200px; height: 30px; }
-input[type="password"]{width: 200px; height: 30px;}
-input[type="text"]{width: 200px; height: 30px; }
+input.message_sendfield[type="email"]{width: 200px; height: 30px; }
+input.message_sendfield[type="password"]{width: 200px; height: 30px;}
+input.message_sendfield[type="text"]{width: 200px; height: 30px; }
 .headingthree{margin-top: 10px; margin-bottom: 10px;}
-input{margin-left: 5px;}
+input.message_sendfield{margin-left: 5px;}
 button[type="button"]{width: 100px; height: 30px; background-color:aquamarine; color: green; border: none;}
 button[type="button"]:hover{background-color: antiquewhite; color: black; transition: 0.5s;}
-button[type="reset"]{width: 100px; height: 30px; background-color:aquamarine; color: green; border: none;}
-button[type="reset"]:hover{background-color: antiquewhite; color: black; transition: 0.5s;}
+button.button_formfield[type="reset"]{width: 100px; height: 30px; background-color:aquamarine; color: green; border: none;}
+button.button_formfield[type="reset"]:hover{background-color: antiquewhite; color: black; transition: 0.5s;}
+div#footer_div{background-color: black; display: flex;}
+.left_section{width: 400px;}
+.logo_monogram{margin-top: 20px; margin-left: 10px; width: 100px; height: 100px;}
+.middle_section{width: 400px;}
+.footer_ulmenu{margin-top: 20px; margin-left: 30px;}
+ul.footer_ulmenu li{ }
+ul.footer_ulmenu li a{text-decoration: none; color: bisque;}
+.right_section{width: 400px;}
+.facebook_icon{width: 35px; height: 35px; margin-top: 20px; margin-left: 30px;}
+.Instagram_icon{width: 35px; height: 35px; margin-top: 20px; margin-left: 30px;}
+.linkedin_icon{width: 35px; height: 35px; margin-top: 20px; margin-left: 30px;}
+.main_footer{background-color: antiquewhite; text-align: center; padding: 10px;}
+.checked {color: orange;}
