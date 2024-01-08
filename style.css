@@ -15,7 +15,26 @@ input[type=password]{width: 100px; height: 20px;}
 button[type=submit]{width: 70px; height: 20px;}
 .slider_first{height: 300px; width: 1194px; border: 3px solid gray;}
 #main_content{background-color: aliceblue; margin-top: -4px; overflow: hidden;}
-.left_content{width: 550px; margin-top: 20px; text-align: justify; margin-left: 10px;}
+.left_content{width: 550px; margin-top: 20px; text-align: justify; margin-left: 10px; float: left;}
 h2{padding: 10px 0px 10px 6px;; background-color: antiquewhite;}
 p{padding: 25px;}
-.right_content{width: 550px;}
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-top: 20px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+.right_content{ margin-top: 25px;margin-left: 75px;}
+h4{padding: 10px 0px 10px 6px;; background-color: antiquewhite; margin-left: -90px;}
+#message_form{width: 500px; border: 2px solid green;  margin: 0 auto; padding: 10px; padding: 20px;}
+input[type="email"]{width: 200px; height: 30px; }
+input[type="password"]{width: 200px; height: 30px;}
+input[type="text"]{width: 200px; height: 30px; }
+.headingthree{margin-top: 10px; margin-bottom: 10px;}
+input{margin-left: 5px;}
+button[type="button"]{width: 100px; height: 30px; background-color:aquamarine; color: green; border: none;}
+button[type="button"]:hover{background-color: antiquewhite; color: black; transition: 0.5s;}
+button[type="reset"]{width: 100px; height: 30px; background-color:aquamarine; color: green; border: none;}
+button[type="reset"]:hover{background-color: antiquewhite; color: black; transition: 0.5s;}
